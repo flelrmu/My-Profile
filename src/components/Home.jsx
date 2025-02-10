@@ -14,7 +14,6 @@ const Home = () => {
             src="profile.JPG"
             alt="my profile"
             className="rounded-3xl mx-auto w-[200px] md:w-[300px]"
-           
           />
         </div>
         <div className="flex flex-col justify-center h-full px-10">
@@ -34,9 +33,10 @@ const Home = () => {
             loop
           />
           <p className="text-gray-500 pb-4 max-w-md">
-            I'm a full-stack developer and graphic designer. Currently, i'm
-            focused on building content on social media and selling designs on
-            the platform microstock
+            I am a front-end & back-end developer and also a graphic designer.
+            Currently, I focusing on developing my skills as a programmer as
+            well as building content on social media and selling designs
+            microstock platform
           </p>
           <div>
             <button className="group text-white w-fit px-4 py-2 my-2 flex items-center rounded-md border-2 border-[#2BCFC3] cursor-pointer hover:bg-[#2BCFC3] ease-in duration-300">

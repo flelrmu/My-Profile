@@ -26,7 +26,7 @@ const Collaboration = () => {
           <img
             src="grafisity.png"
             alt="my profile"
-            className="rounded-full mx-auto w-1/3 md:w-[300px] hover:animate-spin"
+            className="rounded-full mx-auto w-1/3 md:w-[300px] hover:animate-pulse"
             
           />
         </div>

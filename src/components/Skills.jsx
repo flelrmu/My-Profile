@@ -32,7 +32,11 @@ const Skills = () => {
             <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="javascript.png" alt="HTML icon" />
+            <img
+              className="w-20 mx-auto"
+              src="javascript.png"
+              alt="HTML icon"
+            />
             <p className="my-4">JAVASCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
@@ -44,23 +48,23 @@ const Skills = () => {
             <p className="my-4">TAILWIND</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src="node.png" alt="HTML icon" />
+            <p className="my-4">NODE JS</p>
+          </div>
+           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src="express.png" alt="HTML icon" />
+            <p className="my-4">EXPRESS JS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src="figma.png" alt="HTML icon" />
             <p className="my-4">FIGMA</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img
-              className="w-20 mx-auto"
-              src="ai.png"
-              alt="HTML icon"
-            />
+            <img className="w-20 mx-auto" src="ai.png" alt="HTML icon" />
             <p className="my-4">ADOBE ILLUSTRATOR</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img
-              className="w-20 mx-auto"
-              src="ap.png"
-              alt="HTML icon"
-            />
+            <img className="w-20 mx-auto" src="ap.png" alt="HTML icon" />
             <p className="my-4">ADOBE PHOTOSHOP</p>
           </div>
         </div>

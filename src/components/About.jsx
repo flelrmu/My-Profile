@@ -23,7 +23,15 @@ const About = () => {
           </div>
           <div>
             <p className="pl-4 sm:pl-0 pt-1">
-              I'm a full-stack developer and graphic designer . I study at Andalas University majoring in information systems. I am interested in graphic design, programming and business. I master some software like adobe illustrator, adobe photoshop, figma, and canva.
+              I am a Graphic Designer with over two years of freelance
+              experience specializing in digital design. My expertise includes
+              creating logos, typography, wordmark logos, banners, and UI/UX
+              designs. I adeptly utilize Adobe Illustrator, Adobe Photoshop, and
+              Figma to transform design concepts into polished visuals. I
+              consistently deliver high-quality designs that are aligned with
+              brand strategies. Additionally, I am knowledgeable in modern web
+              technologies, including React JS and Tailwind CSS, and possess
+              some experience with Express.js.
             </p>
           </div>
         </div>

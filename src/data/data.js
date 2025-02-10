@@ -79,19 +79,12 @@ export const data = [
     },
     {
         id: 12,
-        name : 'flelrmu gaming',
-        category: 'content',
-        image : 'https://pbs.twimg.com/media/GH_4Y6baQAAqN9K?format=jpg&name=medium',
-        siteUrl : '#'
-    },
-    {
-        id: 13,
         name : 'ShutterStock',
         category: 'microstock',
         image : 'https://cdn-icons-png.flaticon.com/512/174/174868.png',
     },
     {
-        id: 14,
+        id: 13,
         name : 'Adobe Stock',
         category: 'microstock',
         image : 'https://cdn-icons-png.flaticon.com/512/5968/5968495.png',
