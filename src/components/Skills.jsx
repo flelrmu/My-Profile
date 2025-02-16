@@ -1,6 +1,59 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 
+const abilities = [
+  {
+    id: 1,
+    name: "HTML",
+    image: "html.png",
+  },
+  {
+    id: 2,
+    name: "CSS",
+    image: "css.png",
+  },
+  {
+    id: 3,
+    name: "JAVASCRIPT",
+    image: "javascript.png",
+  },
+  {
+    id: 4,
+    name: "REACT",
+    image: "react.png",
+  },
+  {
+    id: 5,
+    name: "TAILWIND",
+    image: "tailwind.png",
+  },
+  {
+    id: 6,
+    name: "NODE JS",
+    image: "node.png",
+  },
+  {
+    id: 7,
+    name: "EXPRESS JS",
+    image: "express.png",
+  },
+  {
+    id: 8,
+    name: "FIGMA",
+    image: "figma.png",
+  },
+  {
+    id: 9,
+    name: "ADOBE ILLUSTRATOR",
+    image: "ai.png",
+  },
+  {
+    id: 10,
+    name: "ADOBE PHOTOSHOP",
+    image: "ap.png",
+  },
+];
+
 const Skills = () => {
   useEffect(() => {
     AOS.init();
@@ -23,50 +76,15 @@ const Skills = () => {
           data-aos-duration="3000"
           className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8"
         >
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="html.png" alt="HTML icon" />
-            <p className="my-4">HTML</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="css.png" alt="HTML icon" />
-            <p className="my-4">CSS</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img
-              className="w-20 mx-auto"
-              src="javascript.png"
-              alt="HTML icon"
-            />
-            <p className="my-4">JAVASCRIPT</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="react.png" alt="HTML icon" />
-            <p className="my-4">REACT</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="tailwind.png" alt="HTML icon" />
-            <p className="my-4">TAILWIND</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="node.png" alt="HTML icon" />
-            <p className="my-4">NODE JS</p>
-          </div>
-           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="express.png" alt="HTML icon" />
-            <p className="my-4">EXPRESS JS</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="figma.png" alt="HTML icon" />
-            <p className="my-4">FIGMA</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="ai.png" alt="HTML icon" />
-            <p className="my-4">ADOBE ILLUSTRATOR</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src="ap.png" alt="HTML icon" />
-            <p className="my-4">ADOBE PHOTOSHOP</p>
-          </div>
+          {abilities.map((ability) => (
+            <div
+              key={ability.id}
+              className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            >
+              <img className="w-20 mx-auto" src={ability.image} />
+              <p className="my-4">{ability.name}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>
