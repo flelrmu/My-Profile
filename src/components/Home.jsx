@@ -93,7 +93,7 @@ const Home = () => {
                     rel="noopener noreferrer"
                     className="block pr-2 py-2 text-white hover:text-[#2BCFC3] transition-colors duration-200"
                   >
-                    Web Developer
+                    Full-stack Developer
                   </a>
                 </li>
               </ul>
