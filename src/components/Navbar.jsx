@@ -7,7 +7,9 @@ import {
   FaLinkedin,
   FaBehance,
   FaInstagram,
+  FaPinterest,
 } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -38,64 +40,44 @@ const Navbar = () => {
     <header ref={headerRef}>
       <div className="w-full h-[80px] flex justify-between items-center px-4  bg-black text-white">
         <div>
-          <a href="https://www.instagram.com/flelrmu/"><img src="flelrmu.png" alt="Logo Style" style={{ width: "90px" }} /></a>
-          
+          <a href="https://www.instagram.com/flelrmu/">
+            <img src="flelrmu.png" alt="Logo Style" style={{ width: "90px" }} />
+          </a>
         </div>
 
         {/* menu */}
         <ul className="hidden md:flex">
-          <li
-            className="hover:scale-105 duration-200"
-           
-          >
+          <li className="hover:scale-105 duration-200">
             <Link to="home" smooth={true} duration={500}>
               Home
             </Link>
           </li>
-          <li
-            className="hover:scale-105 duration-200"
-          
-          >
+          <li className="hover:scale-105 duration-200">
             <Link to="about" smooth={true} duration={500}>
               About
             </Link>
           </li>
-          <li
-            className="hover:scale-105 duration-200"
-           
-          >
+          <li className="hover:scale-105 duration-200">
             <Link to="education" smooth={true} duration={500}>
               Education
             </Link>
           </li>
-          <li
-            className="hover:scale-105 duration-200"
-          
-          >
+          <li className="hover:scale-105 duration-200">
             <Link to="skills" smooth={true} duration={500}>
               Skills
             </Link>
           </li>
-          <li
-            className="hover:scale-105 duration-200"
-           
-          >
+          <li className="hover:scale-105 duration-200">
             <Link to="portofolio" smooth={true} duration={500}>
               Portofolio
             </Link>
           </li>
-          <li
-            className="hover:scale-105 duration-200"
-          
-          >
+          <li className="hover:scale-105 duration-200">
             <Link to="collaboration" smooth={true} duration={500}>
               Collaboration
             </Link>
           </li>
-          <li
-            className="hover:scale-105 duration-200"
-         
-          >
+          <li className="hover:scale-105 duration-200">
             <Link to="contact" smooth={true} duration={500}>
               Contact
             </Link>
@@ -125,26 +107,17 @@ const Navbar = () => {
               : "absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 flex flex-col justify-center items-center"
           }
         >
-          <li
-            className="py-6 text-2xl hover:scale-105 duration-200"
-         
-          >
+          <li className="py-6 text-2xl hover:scale-105 duration-200">
             <Link onClick={handleClick} to="home" smooth={true} duration={500}>
               Home
             </Link>
           </li>
-          <li
-            className="py-6 text-2xl hover:scale-105 duration-200"
-          
-          >
+          <li className="py-6 text-2xl hover:scale-105 duration-200">
             <Link onClick={handleClick} to="about" smooth={true} duration={500}>
               About
             </Link>
           </li>
-          <li
-            className="py-6 text-2xl hover:scale-105 duration-200"
-       
-          >
+          <li className="py-6 text-2xl hover:scale-105 duration-200">
             <Link
               onClick={handleClick}
               to="education"
@@ -154,10 +127,7 @@ const Navbar = () => {
               Education
             </Link>
           </li>
-          <li
-            className="py-6 text-2xl hover:scale-105 duration-200"
-          
-          >
+          <li className="py-6 text-2xl hover:scale-105 duration-200">
             <Link
               onClick={handleClick}
               to="skills"
@@ -167,10 +137,7 @@ const Navbar = () => {
               Skills
             </Link>
           </li>
-          <li
-            className="py-6 text-2xl hover:scale-105 duration-200"
-          
-          >
+          <li className="py-6 text-2xl hover:scale-105 duration-200">
             <Link
               onClick={handleClick}
               to="portofolio"
@@ -180,10 +147,7 @@ const Navbar = () => {
               Portofolio
             </Link>
           </li>
-          <li
-            className="py-6 text-2xl hover:scale-105 duration-200"
-           
-          >
+          <li className="py-6 text-2xl hover:scale-105 duration-200">
             <Link
               onClick={handleClick}
               to="collaboration"
@@ -193,10 +157,7 @@ const Navbar = () => {
               Collaboration
             </Link>
           </li>
-          <li
-            className="py-6 text-2xl hover:scale-105 duration-200"
-          
-          >
+          <li className="py-6 text-2xl hover:scale-105 duration-200">
             <Link
               onClick={handleClick}
               to="contact"
@@ -209,12 +170,12 @@ const Navbar = () => {
         </ul>
 
         {/* social */}
-        <div className="fixed hidden lg:flex flex-col top-[35%] left-0">
+        <div className="fixed hidden lg:flex flex-col top-[25%] left-0">
           <ul>
             <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#0A66C2]">
               <a
                 className="flex justify-between items-center w-full text-white"
-                href="https://www.linkedin.com/in/muhammad-farhan-053251291/"
+                href="https://www.linkedin.com/in/muhammad-farhan-asra"
               >
                 Linkedin <FaLinkedin size={30} />
               </a>
@@ -222,7 +183,7 @@ const Navbar = () => {
             <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-gradient-to-t  from-[#F7AF36] to-[#E614AB]">
               <a
                 className="flex justify-between items-center w-full text-white"
-                href="https://www.instagram.com/flelrmu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                href="https://www.instagram.com/flelrmu"
               >
                 Instagram <FaInstagram size={30} />
               </a>
@@ -230,9 +191,17 @@ const Navbar = () => {
             <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#0861FF]">
               <a
                 className="flex justify-between items-center w-full text-white"
-                href="https://www.behance.net/gallery/187084607/Graphic-Design"
+                href="https://www.behance.net/muhammadfarhan208"
               >
                 Behance <FaBehance size={30} />
+              </a>
+            </li>
+            <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#E60023]">
+              <a
+                className="flex justify-between items-center w-full text-white"
+                href="https://pinterest.com/your-username"
+              >
+                Pinterest <FaPinterest size={30} />
               </a>
             </li>
             <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-black">
@@ -241,6 +210,14 @@ const Navbar = () => {
                 href="https://github.com/flelrmu"
               >
                 GitHub <FaGithub size={30} />
+              </a>
+            </li>
+            <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-black">
+              <a
+                className="flex justify-between items-center w-full text-white"
+                href="https://x.com/your-username"
+              >
+                X <FaXTwitter size={30} />
               </a>
             </li>
           </ul>
