@@ -199,7 +199,7 @@ const Navbar = () => {
             <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#E60023]">
               <a
                 className="flex justify-between items-center w-full text-white"
-                href="https://pinterest.com/your-username"
+                href="https://id.pinterest.com/mhdfarhanasra/"
               >
                 Pinterest <FaPinterest size={30} />
               </a>
@@ -215,7 +215,7 @@ const Navbar = () => {
             <li className="w-[150px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-black">
               <a
                 className="flex justify-between items-center w-full text-white"
-                href="https://x.com/your-username"
+                href="https://x.com/flelrmu"
               >
                 X <FaXTwitter size={30} />
               </a>

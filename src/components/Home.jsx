@@ -69,13 +69,13 @@ const Home = () => {
             </button>
             
             <div 
-              className={`absolute mt-1 w-44 bg-gray-800 rounded-md shadow-lg z-10 border border-[#2BCFC3] overflow-hidden transition-all duration-300 ease-in-out ${
+              className={`absolute mt-1 w-52 bg-gray-800 rounded-md shadow-lg z-10 border border-[#2BCFC3] overflow-hidden transition-all duration-300 ease-in-out ${
                 isOpen 
                   ? 'max-h-24 opacity-100 transform translate-y-0' 
                   : 'max-h-0 opacity-0 transform -translate-y-2 pointer-events-none'
               }`}
             >
-              <ul className="py-1">
+              <ul>
                 <li className="hover:bg-gray-700 transition-colors duration-200">
                   <a
                     href="document/CV ATS - GRAPHIC DESIGNER.pdf"

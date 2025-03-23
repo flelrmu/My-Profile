@@ -50,7 +50,12 @@ const abilities = [
   {
     id: 10,
     name: "ADOBE PHOTOSHOP",
-    image: "ap.png",
+    image: "photoshop.svg",
+  },
+  {
+    id: 11,
+    name: "CANVA",
+    image: "canva.svg",
   },
 ];
 
