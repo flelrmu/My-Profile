@@ -32,9 +32,9 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="px-10 sm:pt-0 pt-20">
           <img
-            src="profile.JPG"
+            src="profile.jpeg"
             alt="my profile"
-            className="rounded-3xl mx-auto w-[200px] md:w-[300px]"
+            className="rounded-full mx-auto w-[200px] md:w-[300px]"
           />
         </div>
         <div className="flex flex-col justify-center h-full px-10">
